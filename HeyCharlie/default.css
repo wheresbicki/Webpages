@@ -1,0 +1,173 @@
+html, body
+{
+	height: 100%;
+	width: 100%;
+	min-width: 980px;
+}
+
+body
+{
+	margin: 0px;
+	padding: 0px;
+	font-family:  Arial, Helvetica, sans-serif;
+	font-size: 12pt;
+	color: #000000;
+}
+
+h1, h2, h3
+{
+	margin: 0;
+	padding: 0;
+}
+
+p, ol, ul
+{
+	margin-top: 0px;
+}
+
+p
+{
+	line-height: 150%;
+}
+
+br
+{
+	display: block;
+	margin-top: 10px;
+	line-height:22px;
+}
+
+.container
+{
+	width: 100%;
+	margin: 0px auto;
+}
+
+.image-small img
+{
+	width: 35px;
+	margin: 0px;
+}
+
+#banner
+{
+	/*background: #FF5C00;*/
+	overflow:visible;
+	height: 200px;
+}
+
+	#image1
+	{
+		float:left;
+		width: 700px;
+		background: #333;
+		height:100%;
+		margin: 0px 0px 0px 50px;
+	}
+	
+	#image1 p{
+		color:#FFF;
+	}
+
+	#image2
+	{
+		float:right;
+		max-width: 200px;
+		background: #ff5c00;
+		margin: 0px 30px 0px 0px;
+		height: 100%
+	}
+
+#header{
+	background: #169199;
+	height: 50px;
+}
+
+#header-nav
+{
+	height: 50px;
+	float:left;
+	width: 750px;
+}
+
+	#header-nav ul{
+		/*background: #000;*/
+		list-style: none;
+		height: 50px;
+		width: 75%;
+	}
+	
+	#header-nav ul li{
+		display: inline;
+		padding: 10px 5%;
+		/*background: #fff;*/
+		line-height: 3em;
+		text-align: center;
+	}
+	#header-nav a{
+		text-decoration: none;
+		color: #FFF;
+		font-weight: bold;
+	}
+#phone
+{
+	float: right;
+	position: relative;
+	color:#FFF;
+	font-weight: bold;
+	padding: 10px 0px 0px 0px;
+	width: 150px;
+}	
+
+#main
+{
+	width: 100%;
+	background: #4B4454;
+	height:100%;
+	overflow:hidden;
+	padding: 0px 0px 35px 0px;
+}
+
+#textbox
+{
+	float:left;
+	width: 60%;
+	margin: 25px 0px 0px 50px;
+	padding: 10px 10px;
+	background: #C9C7CC;
+	min-height: 400px;
+}
+
+#sidebar
+{	
+	margin: 25px 50px 0px 2%;
+	background: #6c6c6c;
+	float:right;
+	width: 250px;
+	padding: 0px 0px 10px 0px;
+}
+
+#media 
+{
+	margin: 0px 0px 0px 10px;
+	padding: 10px 0px 0px 0px;
+}
+    #media ul li
+	{
+		list-style:none;
+		display:inline;
+	}
+
+#footer
+{
+	clear: both;
+	background: #000000;
+	height: 10%;
+	color: #fff;
+}
+
+#footer p
+{
+	display:inline;
+	margin: 0px 0px 0px 50px;
+}
